@@ -83,6 +83,7 @@ header {
 .button-start a {
   width: 80%;
   background-color: var(--pink);
+  padding: 1.3rem 0;
   font-size: 1.3rem;
   color: var(--very-pale-cyan );
   font-weight: 500;
