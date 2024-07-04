@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --pink-opacity: hsla(322, 82%, 78%, 0.973);
+
+  --very-white: hsl(0, 0%, 100%);
+  --very-blur: hsl(208deg 33.44% 73.01%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --grayish-blue-opacity: rgba(128, 141, 153, 0.18);
+  --font-open: "Open Sans", sans-serif;
+  --font-popins: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--very-white);
+  color: var(--very-dark-cyan);
+  font-size: 1.6rem;
+  font-family: var(--font-open);
+  line-height: 1.4;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: var(--font-popins);
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
