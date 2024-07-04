@@ -4,11 +4,10 @@
 }
 
 header {
-/*   height: 100vh; */
+  /* height: 100vh; */
   background-image: url(../images/bg-hero-mobile.svg);
   background-color: var(--very-pale-cyan);
   background-repeat: no-repeat;
-  padding-bottom: 2rem;
 }
 
 .center {
@@ -17,7 +16,6 @@ header {
 }
 
 .nav {
-/*   height: 12rem; */
   height: 10rem;
 
   display: flex;
@@ -55,11 +53,6 @@ header {
 
 /***/
 
-.community {
-/*   height: calc(120vh - 12rem); */
-/*   margin-top: 3rem; */
-}
-
 .build {
   padding: 0 2rem;
   text-align: center;
@@ -94,5 +87,54 @@ header {
 
 .image-table img {
   width: 100%;
+}
 
+@media screen and (min-width: 500px) {
+  .community {
+    margin-top: 7rem;
+  }
+
+  .build h1 {
+    font-size: 3.2rem;
+  }
+
+  .build p {
+    width: 85%;
+    font-size: 1.8rem;
+  }
+
+  .button-start a {
+    width: 75%;
+    margin-top: 4.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .image-table img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .community {
+    margin-top: 7rem;
+  }
+
+  .build h1 {
+    width: 70%;
+    margin: auto;
+  }
+
+  .build p {
+    width: 65%;
+    margin-top: 3rem;
+    
+  }
+
+  .button-start a {
+    width: 55%;
+  }
+
+  .image-table img {
+    width: 90%;
+  }
 }
