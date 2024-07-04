@@ -8,6 +8,7 @@ header {
   background-image: url(../images/bg-hero-mobile.svg);
   background-color: var(--very-pale-cyan);
   background-repeat: no-repeat;
+  padding-bottom: 2rem;
 }
 
 .center {
