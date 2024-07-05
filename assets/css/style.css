@@ -148,11 +148,11 @@ header {
     height: calc(85vh - 10rem);
     
     display: flex;
-    gap: 5rem;
+    /* gap: 5rem; */
   }
 
   .flex-center {
-    width: 45%;
+    width: 50%;
     height: 100%;
 
     display: grid;
@@ -167,13 +167,13 @@ header {
 
   .build h1 {
     margin: 0;
-    width: 100%;
+    width: 400px;
   }
 
   .build p {
-    margin: 0;
-    width: 100%;
-    font-size: 1.6rem
+    width: 410px;
+    font-weight: 400;
+    margin: 3rem 0;
   }
 
   .button-start a {
@@ -181,7 +181,7 @@ header {
   }
 
   .image {
-    width: 55%;
+    width: 50%;
     height: 100%;
 
     display: grid;
@@ -193,7 +193,35 @@ header {
   }
 
   .image-table img {
-    width: 95%;
+    width: 100%;
   }
 }
 
+@media screen and (min-width: 1280px) {
+  header {
+    height: 95vh;
+  }
+
+  .community {
+    height: calc(95vh - 10rem);
+  }
+
+  .flex-center {
+    width: 45%;
+  }
+
+  .build p {
+    width: 510px;
+    font-weight: 400;
+    margin: 3rem 0;
+   
+  }
+
+  .image {
+    width: 55%;
+  }
+
+  .image-table img {
+    width: 95%;
+  }
+}
