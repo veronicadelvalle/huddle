@@ -1,13 +1,8 @@
-.image-table img {
-  width: 100%;
-  height: 100%;
-}
-
 header {
-  /* height: 100vh; */
   background-image: url(../images/bg-hero-mobile.svg);
   background-color: var(--very-pale-cyan);
   background-repeat: no-repeat;
+  padding-bottom: 3rem;
 }
 
 .center {
@@ -23,7 +18,7 @@ header {
   align-items: center;
 }
 
-.image img {
+.brand img {
   width: 60%;
 }
 
@@ -91,7 +86,7 @@ header {
 
 @media screen and (min-width: 500px) {
   .community {
-    margin-top: 7rem;
+    margin-top: 6rem;
   }
 
   .build h1 {
@@ -135,6 +130,70 @@ header {
   }
 
   .image-table img {
-    width: 90%;
+    width: 80%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 0;
+    height: 85vh;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .community {
+    margin: 0;
+    height: calc(85vh - 10rem);
+    
+    display: flex;
+    gap: 5rem;
+  }
+
+  .flex-center {
+    width: 45%;
+    height: 100%;
+
+    display: grid;
+    place-items: center;
+  }
+
+  .build {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .build h1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .build p {
+    margin: 0;
+    width: 100%;
+    font-size: 1.6rem
+  }
+
+  .button-start a {
+    margin: 0;
+  }
+
+  .image {
+    width: 55%;
+    height: 100%;
+
+    display: grid;
+    place-items: center;
+  }
+
+  .image-table {
+    width: 100%;
+  }
+
+  .image-table img {
+    width: 95%;
+  }
+}
+
