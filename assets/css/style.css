@@ -37,7 +37,6 @@ header {
 @media screen and (min-width: 1024px){
   .button-try a {
     width: 160px;
-    padding: 1rem 0;
     cursor: pointer;
   }
 
@@ -73,7 +72,7 @@ header {
   width: 80%;
   background-color: var(--pink);
   padding: 1.3rem 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: var(--very-pale-cyan );
   font-weight: 500;
   margin-top: 3rem;
@@ -143,12 +142,20 @@ header {
     background-size: cover;
   }
 
+  .button-start a {
+    padding: 1.5rem 0;
+  } 
+
+  .button-start a:hover {
+    background-color: var(--pink-opacity);
+    color: var(--very-pale-cyan);
+  } 
+
   .community {
     margin: 0;
     height: calc(85vh - 10rem);
     
     display: flex;
-    /* gap: 5rem; */
   }
 
   .flex-center {
@@ -202,6 +209,10 @@ header {
     height: 95vh;
   }
 
+  .button-start a {
+    padding: 1.8rem 0;
+  } 
+
   .community {
     height: calc(95vh - 10rem);
   }
@@ -214,7 +225,6 @@ header {
     width: 510px;
     font-weight: 400;
     margin: 3rem 0;
-   
   }
 
   .image {
